@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Orchid Essence &mdash; Traditional Balinese Spa &amp; Massage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="logo">
+      <img src="images/TheOrchid.png" alt="The Orchid Essence" style="height:58px; width:58px;">
+  The Orchid Essence
+</a>
+    <div class="navlinks">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#ritual">The Experience</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#treatments">Treatments</a>
+      <a href="#contact">Visit Us</a>
+    </div>
+    <a href="https://wa.me/6283115113786?text=Hi%2C%20I'd%20like%20to%20book%20a%20session%20at%20The%20Orchid%20Essence" target="_blank" rel="noopener" class="nav-cta">Book a session</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="wrap">
+    <div class="eyebrow">Mengwi, Bali &mdash; since 2018</div>
+    <h1>Body Acupressure,<br><em>reimagined</em> for recovery.</h1>
+    <p class="lede">Thoughtfully delivered through targeted pressure point techniques,<br> our treatments are designed to restore balance, release deep seated tension and promote a lasting sense of physical well being.</p>
+    <div class="hero-actions">
+      <a href="#treatments" class="btn-primary">See Our Treatments</a>
+    </div>
+  </div>
+</section>
+
+<section class="philosophy" id="philosophy">
+  <div class="wrap">
+    <div>
+      <div class="tag">Our philosophy</div>
+      <h2>Professional care, personal attention.</h2>
+    </div>
+    <div class="copy">
+      <p>At The Orchid Essence, we believe effective body acupressure begins with understanding every individual. No two bodies experience tension, fatigue or discomfort in exactly the same way, which is why every treatment is tailored to your specific needs and condition.</p>
+      <p>Guided by years of professional spa experience, our approach focuses on relieving muscle tension, improving circulation and restoring physical balance through carefully applied pressure point techniques. Simple, effective and designed to help you feel your best.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ritual" id="ritual">
+  <div class="wrap">
+    <div class="heading">
+      <div class="tag">The Experience</div>
+      <h2>Thoughtfully designed for comfort and recovery.</h2>
+    </div>
+    <div class="timeline">
+      <div class="tstep">
+        <div class="dot"></div>
+        <div class="time">Step 1</div>
+        <h3>Welcome</h3>
+        <p>Every visit begins with a warm welcome drink, mineral water or ginger tea, setting the tone for your relaxation.</p>
+      </div>
+      <div class="tstep">
+        <div class="dot"></div>
+        <div class="time">Step 2</div>
+        <h3>Consultation</h3>
+        <p>A brief conversation to understand your health history, lifestyle, and any areas that require special care or attention.</p>
+      </div>
+      <div class="tstep">
+        <div class="dot"></div>
+        <div class="time">Step 3</div>
+        <h3>Preparation</h3>
+        <p>Your feet are gently cleansed with a warm towel, a calming process that prepares your body for treatment.</p>
+      </div>
+      <div class="tstep">
+        <div class="dot"></div>
+        <div class="time">Step 4</div>
+        <h3>Your Treatment</h3>
+        <p>Targeted acupressure techniques are applied to relieve tension, improve circulation and support the body's natural balance.</p>
+      </div>
+      <div class="tstep">
+        <div class="dot"></div>
+        <div class="time">Step 5</div>
+        <h3>Closing</h3>
+        <p>Share how you felt, enjoy one more drink, and leave feeling lighter, refreshed and ready for the day ahead.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="tag">Gallery</div>
+        <h2>The Orchid Essence</h2>
+      </div>
+      <div class="gallery-cats">
+        <button class="cat-btn active" data-cat="all">All</button>
+        <button class="cat-btn" data-cat="room">Treatment Room</button>
+        <button class="cat-btn" data-cat="therapy">In Session</button>
+        <button class="cat-btn" data-cat="products">Products</button>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <button class="car-arrow car-prev" aria-label="Previous">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <div class="car-viewport">
+        <div class="car-track" id="carTrack"></div>
+      </div>
+      <button class="car-arrow car-next" aria-label="Next">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <div class="car-dots" id="carDots"></div>
+  </div>
+</section>
+
+<section class="treatments" id="treatments">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <div class="tag">Treatment menu</div>
+        <h2>Choose your packages</h2>
+      </div>
+      <p>Prices in IDR. Every session begins with a welcome drink and consultation, followed by warm towel preparation before your treatment.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item">
+        <div>
+          <div class="name">Foot Reflexology</div>
+          <div class="desc">Starts from the feet, stimulating reflex zones to support and rebalance the whole body.</div>
+        </div>
+        <div class="dur">60 min</div>
+        <div class="price">Rp 200,000</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="name">Balinese Massage</div>
+          <div class="desc">A gentle, full body massage designed to relieve stress and restore your energy.</div>
+        </div>
+        <div class="dur">60 min</div>
+        <div class="price">Rp 200,000</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="name">Synergy Balance</div>
+          <div class="desc">A deep pressure point massage that stimulates and balances the body's energy pathways.</div>
+        </div>
+        <div class="dur">60 min</div>
+        <div class="price">Rp 250,000</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="name">Deep Tissue Massage</div>
+          <div class="desc">Intensive work on deeper muscle layers to relieve chronic tension and pain, best followed by a day of rest.</div>
+        </div>
+        <div class="dur">90 min</div>
+        <div class="price">Rp 300,000</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="name">Experience Therapy</div>
+          <div class="desc">Begins with foot reflexology and moves along the body's pressure points to relieve headaches, migraines and poor circulation.</div>
+        </div>
+        <div class="dur">90 min</div>
+        <div class="price">Rp 350,000</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial">
+  <div class="wrap">
+    <svg width="34" height="26" viewBox="0 0 34 26" fill="none"><path d="M0 26V15.6C0 6.5 4.9 1.1 13 0L14.5 3.6C9.5 5 7.2 8.1 7 12.4H14V26H0ZM19.5 26V15.6C19.5 6.5 24.4 1.1 32.5 0L34 3.6C29 5 26.7 8.1 26.5 12.4H33.5V26H19.5Z" fill="#C9A25C"/></svg>
+    <blockquote>Like the flower that blooms through every season, true health comes from resilience — the strength to stay balanced no matter what life brings. Take care of your health before illness arrives.</blockquote>
+    <cite>The Orchid Essence</cite>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <div class="tag">Visit us</div>
+      <h2>Find your way to our space</h2>
+      <p>Just twenty minutes from Canggu, tucked into the quiet heart of Buduk, Mengwi. Walk in anytime or book ahead — we'd love to have you.</p>
+      <div class="info-row">
+        <div class="k">Address</div>
+        <div class="v">Perumahan Graha Lia Sri Gading Blok 4 No 1, Buduk, Mengwi, Bali</div>
+      </div>
+      <div class="info-row">
+        <div class="k">Hours</div>
+        <div class="v">Daily, 9:00 AM &ndash; 6:00 PM</div>
+      </div>
+      <div class="info-row">
+        <div class="k">Phone</div>
+        <div class="v">+62 831-1511-3786</div>
+      </div>
+      <div class="info-row">
+        <div class="k">Email</div>
+        <div class="v">theorchidessence@gmail.com</div>
+      </div>
+      <div class="hero-actions" style="margin-top:34px;">
+        <a href="mailto:theorchidessence@gmail.com?subject=Booking%20Inquiry%20-%20The%20Orchid%20Essence&body=Hi%2C%20I'd%20like%20to%20book%20a%20session%20at%20The%20Orchid%20Essence." class="btn-primary" style="background:var(--palm-deep);">Email Us</a>
+      </div>
+    </div>
+    <div class="map-frame">
+      <iframe
+        src="https://www.google.com/maps?q=-8.6025139,115.1684989&hl=en&z=16&output=embed"
+        width="100%" height="100%"
+        style="border:0; min-height:340px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=-8.6025139,115.1684989" target="_blank" rel="noopener" class="map-chip">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21C12 21 5 14.5 5 9.5C5 5.9 8.1 3 12 3C15.9 3 19 5.9 19 9.5C19 14.5 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.3"/></svg>
+        Get directions
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a href="#" class="logo" style="font-size:17px;">The Orchid Essence</a>
+      <div class="fine">&copy; 2026 The Orchid Essence All Rights Reserved.</div>
+    </div>
+    <div class="flinks">
+      <a href="https://www.instagram.com/theorchidessence/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.facebook.com/share/197gSK8vXM/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<script src="gallery.js"></script>
+<script src="timeline.js"></script>
+</body>
+</html>
+</body>
+</html>
