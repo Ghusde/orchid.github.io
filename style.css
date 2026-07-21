@@ -192,6 +192,7 @@
   .gallery-slide .slide-caption{
     position:relative; z-index:2; padding:20px;
     color:var(--rice); width:100%;
+    text-align:center;
   }
   .gallery-slide .slide-caption .cap-tag{
     font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase;
